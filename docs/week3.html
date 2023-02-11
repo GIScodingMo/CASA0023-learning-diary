@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>CASA0023 Learning Diary - 4&nbsp; Week3: Corrections</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./week4.html" rel="next">
+<link href="./week2.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week3: Corrections</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">CASA0023 Learning Diary</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week1: Getting started with remote sensing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week2: Portfolio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week3: Corrections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week4: Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">week5.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">4.1</span>  Summary</a>
+  <ul class="collapse">
+  <li><a href="#geometric-correction" id="toc-geometric-correction" class="nav-link" data-scroll-target="#geometric-correction"><span class="toc-section-number">4.1.1</span>  Geometric correction</a></li>
+  <li><a href="#atmospheric-correction" id="toc-atmospheric-correction" class="nav-link" data-scroll-target="#atmospheric-correction"><span class="toc-section-number">4.1.2</span>  Atmospheric correction</a></li>
+  <li><a href="#orthorectification-correction" id="toc-orthorectification-correction" class="nav-link" data-scroll-target="#orthorectification-correction"><span class="toc-section-number">4.1.3</span>  Orthorectification correction</a></li>
+  <li><a href="#radiometric-calibration" id="toc-radiometric-calibration" class="nav-link" data-scroll-target="#radiometric-calibration"><span class="toc-section-number">4.1.4</span>  Radiometric calibration</a></li>
+  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="toc-section-number">4.2</span>  Application</a>
+  <ul class="collapse">
+  <li><a href="#dos-and-radiance" id="toc-dos-and-radiance" class="nav-link" data-scroll-target="#dos-and-radiance"><span class="toc-section-number">4.2.1</span>  DOS and radiance</a></li>
+  <li><a href="#merging-imagery" id="toc-merging-imagery" class="nav-link" data-scroll-target="#merging-imagery"><span class="toc-section-number">4.2.2</span>  Merging imagery</a></li>
+  <li><a href="#enhancement" id="toc-enhancement" class="nav-link" data-scroll-target="#enhancement"><span class="toc-section-number">4.2.3</span>  Enhancement</a></li>
+  <li><a href="#texture-analysis" id="toc-texture-analysis" class="nav-link" data-scroll-target="#texture-analysis"><span class="toc-section-number">4.2.4</span>  Texture analysis</a></li>
+  <li><a href="#data-fusion-and-pca" id="toc-data-fusion-and-pca" class="nav-link" data-scroll-target="#data-fusion-and-pca"><span class="toc-section-number">4.2.5</span>  Data fusion and PCA</a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">4.3</span>  Reflection</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week3: Corrections</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1</span> Summary</h2>
+<p>This week I learned something about the corrections, the corrections can be divided into four aspects, geometric correction, atmospheric correction, orthorectification correction and radiometric calibration.</p>
+<section id="geometric-correction" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="geometric-correction"><span class="header-section-number">4.1.1</span> Geometric correction</h3>
+<p>Why we need to do the geometric corrections:</p>
+<ul>
+<li>The satellite has view angles when watching the Earth</li>
+<li>The undulating nature of the terrain (topography)</li>
+<li>Wind</li>
+<li>Rotation of Earth</li>
+</ul>
+<p>The methods to do the geometric correction:</p>
+<ul>
+<li>Use linear regression model to find the relationship between original points and distorted points</li>
+<li>Based on the linear relationship, it is better to use polynomial algorithms because it allows for a certain amount of curvature, it will be more accurate</li>
+<li>Use Thin Plate Spline algorithms to introduce the local deformations</li>
+</ul>
+</section>
+<section id="atmospheric-correction" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="atmospheric-correction"><span class="header-section-number">4.1.2</span> Atmospheric correction</h3>
+<p>We need to do the atmospheric correction to reduce the effect from path radiance and the haze created by absorption and scattering to get more accurate image</p>
+<p>The methods to do the atmospheric correction:</p>
+<ul>
+<li>Dark object subtraction (DOS), search the darkest value of image and subtract that from each pixel</li>
+<li>Psuedo-invariant features (PIFs) use the linear function to adjust the image</li>
+<li>ACORN, FLAASH, QUAC, ATCOR</li>
+</ul>
+</section>
+<section id="orthorectification-correction" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="orthorectification-correction"><span class="header-section-number">4.1.3</span> Orthorectification correction</h3>
+<p>The aim of orthorectification correction:</p>
+<ul>
+<li>Provide the coordinates to an image</li>
+<li>Remove the distortions, make pixel viewed at straight down</li>
+</ul>
+<p>The methods to do the orthorectification correction:</p>
+<ul>
+<li>Consider the solar zenith angle and solar azimuth angle to do the cosine correction</li>
+<li>The software we can use QGIS, R packages like RStoolbox</li>
+</ul>
+</section>
+<section id="radiometric-calibration" class="level3" data-number="4.1.4">
+<h3 data-number="4.1.4" class="anchored" data-anchor-id="radiometric-calibration"><span class="header-section-number">4.1.4</span> Radiometric calibration</h3>
+<p>The aim of radiometric calibration:</p>
+<ul>
+<li>Convert the digital number sensors captured from the image brightness (without units) to spectral radiance (with units)</li>
+</ul>
+<p>Methods to do the radiometric calbration:</p>
+<ul>
+<li>Use converting function</li>
+</ul>
+</section>
+</section>
+<section id="application" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="application"><span class="header-section-number">4.2</span> Application</h2>
+<section id="dos-and-radiance" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="dos-and-radiance"><span class="header-section-number">4.2.1</span> DOS and radiance</h3>
+<p>I used the remote sensing image (LC08_L1TP_119038_20230104_20230111_02_T1.txt downloaded from USGS EarthExplorer) to calculate the pixel value of surface reflections generated from scattering by DOS:</p>
+<pre><code>install.packages("rgdal")
+install.packages("RStoolbox")</code></pre>
+<pre><code>library(terra)
+library(raster)
+library(RStoolbox)
+library(tidyverse)
+library(fs)
+library(rgdal)
+
+## Import meta-data and bands based on MTL file
+mtlFile  &lt;- ("D:\\Remote Sensing\\week3\\LC08_L1TP_119038_20230104_20230111_02_T1\\LC08_L1TP_119038_20230104_20230111_02_T1_MTL.txt")
+
+metaData &lt;- readMeta(mtlFile)
+lsatMeta  &lt;- stackMeta(metaData)
+
+# surface reflection with DOS
+l8_boa_ref &lt;- radCor(lsatMeta, metaData, method = "dos")
+
+# write to local dos
+terra::writeRaster(l8_boa_ref, datatype="FLT4S", filename = "D:\\Remote Sensing\\week3\\LC08_L1TP_119038_20230104_20230111_02_T1\\l8_boa_ref.tif", format = "GTiff", overwrite=TRUE)
+
+# Radiance 
+lsat_rad &lt;- radCor(lsatMeta, metaData = metaData, method = "rad")
+
+terra::writeRaster(lsat_rad, datatype="FLT4S", filename = "D:\\Remote Sensing\\week3\\LC08_L1TP_119038_20230104_20230111_02_T1\\lsat_rad.tif", format = "GTiff", overwrite=TRUE)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/l8_boa.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">l8_boa_ref</figcaption><p></p>
+</figure>
+</div>
+<p>Conclusion:</p>
+<p>There are several methods to execute the atmosphereic corrections (from digital number to reflectance), two typical examples are DOS and converting radiance to reflectance. In this case, the difference between radiance to reflectance and DOS correction is not significant and both can be corrected accurately. Actually, When the atmosphere is thinner or when the weather is good, the influence of the atmosphere on the ground radiation is less, the TOA and BOA are close to each other, a small part of the light reaches the sensor through the path radiance, so the less dark object needs to be substracted, the effect is close to the radiance. On the contrary, the more pixels need to be corrected the more obvious the effect of the corrected image is compared to the pre-correction image.</p>
+<pre><code># hazeDN
+
+hazeDN &lt;- RStoolbox::estimateHaze(lsatMeta, hazeBands = 2:4, darkProp = 0.01, plot = TRUE)
+
+lsat_sref &lt;- radCor(lsatMeta, metaData = metaData, method = "dos", 
+                    hazeValues = hazeDN, hazeBands = 2:4)
+
+terra::writeRaster(lsat_sref, datatype="FLT4S", filename = "D:\\Remote Sensing\\week3\\LC08_L1TP_119038_20230104_20230111_02_T1\\lsat_sref.tif", format = "GTiff", overwrite=TRUE)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/hazeDN.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of hazeDN (3 Bands)</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="merging-imagery" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="merging-imagery"><span class="header-section-number">4.2.2</span> Merging imagery</h3>
+<p>Landsat8, Landsat9 and data preparation</p>
+<pre><code># List your raster files excluding band 8 using the patter argument
+listlandsat_8&lt;-dir_info("D:\\Remote Sensing\\week3\\LC08_L2SP_119038_20230104_20230111_02_T1")%&gt;%
+  dplyr::filter(str_detect(path, "[B123456790].TIF")) %&gt;%
+  dplyr::select(path)%&gt;%
+  pull()%&gt;%
+  as.character()%&gt;%
+  # Load our raster layers into a stack
+  terra::rast()
+
+# List your raster files excluding band 8 using the patter argument
+listlandsat_9&lt;-dir_info(
+"D:\\Remote Sensing\\week3\\LC08_L2SP_119038_20230104_20230111_02_T1"
+)%&gt;%
+  dplyr::filter(str_detect(path, "[1B23456790].TIF")) %&gt;%
+  dplyr::select(path)%&gt;%
+  pull()%&gt;%
+  as.character()%&gt;%
+  # Load our raster layers into a stack
+  terra::rast()
+
+# data preparation
+m1 &lt;- terra::mosaic(listlandsat_8, listlandsat_9, fun="mean")</code></pre>
+</section>
+<section id="enhancement" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="enhancement"><span class="header-section-number">4.2.3</span> Enhancement</h3>
+<p>Calculate the NDVI (Normalized Difference Vegetation Index)</p>
+<pre><code>m1_NDVI &lt;- (m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B5 - m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B4) / (m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B5 + m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B4)
+
+m1_NDVI %&gt;%
+  plot(.)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/m1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of m1_NDVI</figcaption><p></p>
+</figure>
+</div>
+<p>Set m1_NDVI is not greater than 0.2</p>
+<pre><code>veg &lt;- m1_NDVI %&gt;%
+  terra::classify(., cbind(-Inf, 0.2, NA))
+
+veg %&gt;%
+  plot(.)</code></pre>
+<p>The highlight area of healthy vegetation: <img src="image/veg.png" class="img-fluid" alt="area of vegetation"> From this map, the vegetation in the Taihu Lake basin is more concentrated to the west of the lake, where the most vegetation is found and where there is less population, while the area north of the lake to the south of the Yangtze River is less vegetated due to the high level of urbanisation, while the area north of the Yangtze River is relatively more vegetated.</p>
+<p>Calculate the NDMI (Normalized Difference Moisture Index) Use band 5 and band 6 on the occasion of Landsat8:</p>
+<p><span class="math inline">\(NDMI = (Band5 - Band6) / (Band5 + Band6)\)</span></p>
+<pre><code>m1_NDMI &lt;- (m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B5 - m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B6) / (m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B5 + m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B6)
+
+m1_NDMI %&gt;%
+  plot(.)
+</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/NDMI.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of m1_NDMI</figcaption><p></p>
+</figure>
+</div>
+<pre><code>moi &lt;- m1_NDMI %&gt;%
+  terra::classify(., cbind(-Inf, 0.05, NA))
+
+moi %&gt;%
+  plot(.)</code></pre>
+<p><img src="image/moi.png" class="img-fluid" alt="result of moi"> ### Filtering</p>
+<pre><code># for a 3 by 3 filter on Band4
+m1_filter &lt;- terra::focal(m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B4, w=matrix(nrow=3,ncol=3))</code></pre>
+</section>
+<section id="texture-analysis" class="level3" data-number="4.2.4">
+<h3 data-number="4.2.4" class="anchored" data-anchor-id="texture-analysis"><span class="header-section-number">4.2.4</span> Texture analysis</h3>
+<p>Generate the glcm.red and glcm.nir from Band4 and Band5, see the result under different statistical indicators</p>
+<pre><code>install.packages("glcm")
+
+
+library(glcm)
+library(raster)
+
+# band4 red, band5 NIR
+
+band4_raster &lt;- raster::raster(m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B4)
+band5_raster &lt;- raster::raster(m1$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B5)
+
+glcm.red &lt;- glcm(band4_raster,
+                   window = c(7, 7),
+                   #shift=list(c(0,1), c(1,1), c(1,0), c(1,-1)), 
+                   statistics = c("mean",
+                                  "variance",
+                                  "homogeneity",
+                                  "contrast",
+                                  "entropy", 
+                                  "dissimilarity",
+                                  "second_moment", 
+                                  "correlation"))
+
+
+glcm.nir &lt;- glcm(band5_raster,
+                   window = c(7, 7),
+                   #shift=list(c(0,1), c(1,1), c(1,0), c(1,-1)), 
+                   statistics = c("mean",
+                                  "variance",
+                                  "homogeneity",
+                                  "contrast",
+                                  "entropy", 
+                                  "dissimilarity",
+                                  "second_moment", 
+                                  "correlation"))
+
+
+
+plot(glcm.red)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/glcm_red.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of glcm.red</figcaption><p></p>
+</figure>
+</div>
+<pre><code>plot(glcm.nir)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/glcm_nir.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of glcm_nir</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="data-fusion-and-pca" class="level3" data-number="4.2.5">
+<h3 data-number="4.2.5" class="anchored" data-anchor-id="data-fusion-and-pca"><span class="header-section-number">4.2.5</span> Data fusion and PCA</h3>
+<pre><code># for the next step of PCA we need to keep this in a raster format
+
+# m1_raster, glcm.red
+m1_raster &lt;- stack(m1)
+Fuse &lt;- stack(m1_raster, glcm.red)
+
+Fuse_3_bands &lt;- stack(Fuse$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B4, Fuse$LC08_L2SP_119038_20230104_20230111_02_T1_SR_B5, Fuse$glcm_homogeneity)
+
+scale_fuse &lt;- scale(Fuse_3_bands)
+
+# m1_raster, glcm.red
+pca &lt;- rasterPCA(Fuse, nSamples =100, spca = TRUE)
+
+summary(pca$model)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/pca.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of pca (m1_raster, glcm.red)</figcaption><p></p>
+</figure>
+</div>
+<p>It can be seen that in my study area, the component 1 accounts for 54.20%, and the summary of component 1 to component 3 accounts for over 90%, component 1 can explain the 54.2% data from entire dataset</p>
+<pre><code>plot(pca$map)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/pcas.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">plot of PCA each component (m1_raster, glcm.red)</figcaption><p></p>
+</figure>
+</div>
+<pre><code># glcm.red, glcm.nir
+Fuse &lt;- scale(stack(glcm.red, glcm.nir))
+
+pca &lt;- rasterPCA(Fuse, nSamples = 100, spca = TRUE)
+                 
+summary(pca$model)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/pca2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">result of pca (glcm.red, glcm.nir)</figcaption><p></p>
+</figure>
+</div>
+<p>The component 1 of glcm.red and glcm.nir is 36.63%, the result is not so good</p>
+<pre><code>plot(pca$map)</code></pre>
+<p><img src="image/pcas2.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="reflection" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">4.3</span> Reflection</h2>
+<p>In this week, I learned the knowledge about the corrections, and the methods about corrections, the distortion of the images from remote sensing is mainly due to the presence of sensor observations in terms of declination, topography, wind and so on. Their correction uses statistical knowledge and principles (such as PCA, linear regression) as well as knowledge of spatial geometry.</p>
+<p>I think it is useful for the further study and work, for example, correcting the satellite image to satisfy people’s demand.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./week2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week2: Portfolio</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week4.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week4: Policy</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
