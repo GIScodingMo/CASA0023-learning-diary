@@ -1,4 +1,4 @@
-# week8: Temperature
+# Week8: Temperature
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# week 5: Google Earth Engine
+# Week 5: Google Earth Engine
 
 ## Summary
 

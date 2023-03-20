@@ -1,4 +1,4 @@
-# Week 1: Getting started with remote sensing 
+# Week 1: Getting started with remote sensing
 
 This week is an introduction of remote sensing.
 

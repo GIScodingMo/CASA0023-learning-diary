@@ -1,4 +1,4 @@
-# week 4: Policy
+# Week 4: Policy
 
 -   city selected: London, England, UK
 -   city development policy: zero carbon emission
