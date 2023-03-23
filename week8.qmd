@@ -80,7 +80,7 @@ It is shown in this picture, the center area of Houston has higher temperature, 
 
 ![Temperature time series](docs/image/hou3.png) The highest temperature in summer appears around 20 June, and the lowest temperature appears in 15-20 September, average temperature in summer is higher than 30 degree.
 
-## Applicaion
+## Application
 
 -   Case 1: socioeconomic drivers of urban heat island effect
 
