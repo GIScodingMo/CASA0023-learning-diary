@@ -165,7 +165,7 @@
     "href": "index.html#about-this-learning-diary",
     "title": "CASA0023 Learning Diary",
     "section": "About this learning diary",
-    "text": "About this learning diary\nThis book is a learning diary for CASA0023 Remotely Sensing Cities and Environments, master course of UCL, the content of this course includes the principle of remote sensing, applications, and analysis using several tools, R and Google Earth Engine. This book is written by Quarto Book, all the code can be seen on my github page.\n\n\n\nWhat is Remote Sensing"
+    "text": "About this learning diary\nThis book is a learning diary for CASA0023 Remotely Sensing Cities and Environments, in this course, I learn how to use R and GEE to analyze remote sensing image. This book is written by Quarto Book, all the code can be seen on my github page.\n\n\n\nWhat is Remote Sensing"
   },
   {
     "objectID": "week3.html#section",
