@@ -20,11 +20,9 @@ This week I learned how to build a model to solve classification problem.
 
         -   random forest
 
-        -   boosting and Xgboost
-
 -   unsupervised learning:
 
-    -   clustering: K-means and GMM
+    -   clustering: K-means
 
 #### Decision tree
 
@@ -56,21 +54,7 @@ Then, the sampling data will be input into different decision tree, finally, the
 
 ![Flow of random forest](docs/image/rf.webp)
 
-There are also some potential drawbacks of the random forest algorithm, which includes its computational complexity and its tendency to perform poorly on datasets with imbalanced classes. However, with proper tuning and optimization, these limitations can be overcome.
-
-#### Xgboost
-
-Before introducing Xgboost it is boosting, both boosting and random forests are essemble learning algorithms that use multiple decision trees. When processing the output of multiple decision trees, boosting calculates the residuals of each tree and minimizes them by constructing a loss function for the residuals to obtain the optimal solution.
-
-![Mechanism of Xgboost](docs/image/loss%20function.png)
-
-Then, how to get the minimum value of loss function, Xgboost uses gradient boosting machine (GBM) and make improvement.
-
-![Benefits of Xgboost](docs/image/benefit.png)
-
-In general, the relationship between the algorithms below:
-
-![Relationship](docs/image/rf2.png)
+There are also some potential drawbacks of the random forest algorithm, which includes its computational complexity and its tendency to perform poorly on dataset with imbalanced classes. However, with proper tuning and optimization, these limitations can be overcome.
 
 ### GEE classification
 
@@ -152,7 +136,7 @@ Nasiri et al. (2020) used the Google Earth Engine (GEE) cloud computing platform
 
 Both S-2 and L-8 show phenological variation in the LULC categories, particularly on agricultural land and woodland, is effectively provided by seasonal composites.
 
-![Spring, summer and autumn compasison between L-8 and S-2 R:(NIR), G:Green, B:Blue](docs/image/res2.png)
+![Spring, summer and autumn comparison between L-8 and S-2 R:(NIR), G:Green, B:Blue](docs/image/res2.png)
 
 This picture is a comparison between S-2 and L-8 to distinguish different land cover between bare and artificial land, grassland and harvested farmland. It can be shown that boundary of different land types S-2 identified is better than L-8.
 
